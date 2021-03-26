@@ -1,8 +1,8 @@
 // Cloud hosts like Heroku or Azure, sets NODE_ENV to production and thus dotenv is not required in that case
 // Otherwise we need to add it as a dependency and also need to push .env file which is a bad practice.
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
+// if (process.env.NODE_ENV !== 'production') {
+//   require('dotenv').config();
+// }
 const express = require("express");
 const bp = require("body-parser");
 const https = require("https");
