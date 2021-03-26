@@ -7,9 +7,7 @@
   "main": "weather.js",
   "scripts": {
     "_comment": "below we have to add, start: node <filename to start our app with>. to avoid error: Missing Start script. Reference read: https://dev.to/bashirk/the-painless-way-to-deploying-your-nodejs-app-on-azure-part-2-5151",
-    "start": "node weather.js",
-    "_comment": "Need to correctly mention test in the script in package.json to avoid error: No test specified. Read here: https://stackoverflow.com/a/50401092",
-    "test": "mocha"
+    "start": "node weather.js"
   },
   "author": "Umesh Yadav",
   "license": "ISC",
