@@ -6,9 +6,10 @@
   "description": "A simple web app developed using node.js backend and OpenWeatherMap API to output the weather conditions for a location entered by the user.",
   "main": "weather.js",
   "scripts": {
-    "_comment": "below we have to add, start: node <filename to start our app with>. reference read: https://dev.to/bashirk/the-painless-way-to-deploying-your-nodejs-app-on-azure-part-2-5151",
+    "_comment": "below we have to add, start: node <filename to start our app with>. to avoid error: Missing Start script. Reference read: https://dev.to/bashirk/the-painless-way-to-deploying-your-nodejs-app-on-azure-part-2-5151",
     "start": "node weather.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "_comment": "Need to correctly mention test in the script in package.json to avoid error: No test specified. Read here: https://stackoverflow.com/a/50401092",
+    "test": "mocha"
   },
   "author": "Umesh Yadav",
   "license": "ISC",
